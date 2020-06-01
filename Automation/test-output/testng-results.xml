@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="238873" started-at="2020-05-20T08:01:36Z" finished-at="2020-05-20T08:05:35Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testInitiator.TestRunner@1e88b3c]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="238873" started-at="2020-05-20T08:01:36Z" finished-at="2020-05-20T08:05:35Z">
+      <class name="testInitiator.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testInitiator.TestRunner@1e88b3c]" name="setUpClass" is-config="true" duration-ms="1256" started-at="2020-05-20T13:31:36Z" finished-at="2020-05-20T13:31:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="initiliazeURL()[pri:0, instance:testInitiator.TestRunner@1e88b3c]" name="initiliazeURL" is-config="true" duration-ms="14387" started-at="2020-05-20T13:31:37Z" finished-at="2020-05-20T13:31:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiliazeURL -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testInitiator.TestRunner@1e88b3c]" name="feature" duration-ms="222856" started-at="2020-05-20T13:31:52Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-05-20T13:35:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Completing Workflow Task]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testInitiator.TestRunner@1e88b3c]" name="tearDownClass" is-config="true" duration-ms="14" started-at="2020-05-20T13:35:35Z" finished-at="2020-05-20T13:35:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testInitiator.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
